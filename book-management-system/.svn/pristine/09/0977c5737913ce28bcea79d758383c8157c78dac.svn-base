@@ -1,0 +1,30 @@
+$(document).ready(function(){
+	$("#one1").click(function(){
+		$("#one1").addClass("hover");
+		$("#one2").removeClass("hover");
+		$("#one3").removeClass("hover");
+		$("#inform_list").css("display","block");
+		$("#resource_list").css("display","none");
+		$("#news_list").css("display","none");
+	});
+	$("#one2").click(function(){
+		$("#one1").removeClass("hover");
+		$("#one2").addClass("hover");
+		$("#one3").removeClass("hover");
+		$("#inform_list").css("display","none");
+		$("#resource_list").css("display","block");
+		$("#news_list").css("display","none");
+	});
+	$("#one3").click(function(){
+	$("#one1").removeClass("hover");
+	$("#one2").removeClass("hover");
+	$("#one3").addClass("hover");
+	$("#inform_list").css("display","none");
+	$("#resource_list").css("display","none");
+	$("#news_list").css("display","block");
+	});
+	$(".page").onclick(function(){
+		$(".page").css("background","#e9f1f7");
+	});
+	
+});

@@ -1,0 +1,141 @@
+var REG_EMAIL = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/i;
+
+$(function() {
+	var name = $("#readerName"), 
+	Email = $("#Email"), 
+	password = $("#readerPassword"),
+	passwordConfirm = $("#readerPasswordConfirm"), 
+	tel = $("#tel");
+	registerChecked = true;
+
+	function  checkForms(t) {
+		var pat=new RegExp("[^a-zA-Z0-9\_\u4e00-\u9fa5]","i"); 
+		if(pat.test(t) == true){
+			return false;	
+		}
+		return true;
+	}
+	
+	name.focus(function() {
+		name.css("background-color", "#e3f0ff");
+		$("#info2").css("display", "block");
+		$(".post_error2").html("");
+	});
+	name.blur(function() {
+		name.css("background-color", "#ffffff");
+		$("#info2").css("display", "none");
+		if(checkForms(name.val()) == false){
+			$(".post_error2").html("不能含有非法字符");
+			registerChecked = false;
+		}
+		else if (name.val() === '') {
+			$(".post_error2").html("请输入姓名");
+			registerChecked = false;
+		} else {
+			$(".post_error2").html("");
+		}
+		
+	});
+
+	Email.focus(function() {
+		Email.css("background-color", "#e3f0ff");
+		$("#info3").css("display", "block");
+		$(".post_error3").html("");
+	});
+
+	Email.blur(function() {
+		Email.css("background-color", "#ffffff");
+		$("#info3").css("display", "none");
+		if (Email.val() === '') {
+			$(".post_error3").html("请输入邮箱");
+			registerChecked = false;
+		} else if (!REG_EMAIL.test(Email.val())) {
+			$(".post_error3").html("E-mail格式不正确");
+			registerChecked = false;
+		} else {
+			$(".post_error3").html("");
+		}
+	});
+
+	password.focus(function() {
+		password.css("background-color", "#e3f0ff");
+		$("#info4").css("display", "block");
+		$(".post_error4").html("");
+
+	});
+	password.blur(function() {
+		password.css("background-color", "#ffffff");
+		$("#info4").css("display", "none");
+		if(checkForms(password.val()) == false){
+			$(".post_error4").html("不能含有非法字符");
+			registerChecked = false;
+		}
+		else if (password.val() === "") {
+			$(".post_error4").html("请输入您的密码");
+			registerChecked = false;
+		} else {
+			$(".post_error4").html("");
+		}
+	});
+
+	passwordConfirm.focus(function() {
+		passwordConfirm.css("background-color", "#e3f0ff");
+		$("#info5").css("display", "block");
+		$(".post_error5").html("");
+	});
+	passwordConfirm.blur(function() {
+		passwordConfirm.css("background-color", "#ffffff");
+		$("#info5").css("display", "none");
+		if (passwordConfirm.val() === "") {
+			$(".post_error5").html("请再次输入密码");
+			registerChecked = false;
+		} else if (passwordConfirm.val() !== password.val()) {
+			$(".post_error5").html("两次密码不一致");
+			registerChecked = false;
+		} else {
+			$(".post_error5").html("");
+		}
+	});
+
+	tel.focus(function() {
+		tel.css("background-color", "#e3f0ff");
+		$(".posyt_error").html("");
+		;
+	});
+
+	tel.blur(function() {
+		tel.css("background-color", "#ffffff");
+	});
+	
+	$("#inputCode").blur(function() {
+
+		var inputCode = document.getElementById("inputCode").value;
+		if (inputCode.length <= 0) {
+			$(".post_error6").html("请输入验证码！");
+			registerChecked=false;
+		}
+		else{
+			$(".post_error6").html("");
+		}
+	});
+	
+	$("#inputCode").focus(function(){
+		$(".post_error6").html("");
+	});
+	
+	$("#register").submit(function() {
+		registerChecked = true;
+		name.blur();
+		Email.blur();
+		password.blur();
+		passwordConfirm.blur();
+		inputCode.blur();
+		return registerChecked;
+	});
+
+});
+
+
+function changeImage(img) {
+	img.src = img.src + "?" + new Date().getTime();
+}

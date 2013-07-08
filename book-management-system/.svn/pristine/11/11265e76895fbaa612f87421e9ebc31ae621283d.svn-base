@@ -1,0 +1,148 @@
+@CHARSET "gb2312";
+*{
+	margin: 0px auto;
+	border: 0 ;
+	padding:0px;
+	font-family: Arial, Helvetica, sans-serif, "宋体";
+	font-size:12px;
+}
+#container {
+width: 1024px;
+margin: 0 auto;
+}
+.menu {
+color: white;
+padding-left:40px;
+}
+.menu1 {
+color: white;
+padding-right:15px;
+}
+.menu1 li {
+color: white;
+font-size: 12px;
+float: right;
+text-align: center;
+padding: 0px 10px;
+}
+.menu1 li a{
+	text-decoration: none;
+	color:white;
+	}
+.menu ul, .menu1 ul, .menu li {
+list-style-type: none;
+}
+
+tr {
+display: table-row;
+border-color: inherit; 
+} 
+
+ul {
+list-style: none;
+}
+a{
+	text-decoration: none;
+	color:  #26466c;
+} 
+
+.menu li {
+color: white;
+font-size: 12px;
+font-weight: bold;
+text-align: center;
+padding: 0px 20px;
+float: left;
+}
+.menu li a{
+	text-decoration: none;
+	color:white;
+	}
+
+#content {
+background-color:#ffffff;
+width: 1024px;
+height:500px;;
+margin: 0 auto;
+}
+.menu_box {
+float:left;
+text-decoration: none;
+width:700px;
+height:18px;
+border-bottom: #AACBEE 1px solid;
+padding:4px 10px 6px 17px;
+margin-top:10px;
+margin-bottom: 10px;
+}
+.menu_box ul li{
+	float:left;
+    list-style: none;
+    text-align: center;
+    width:100px;
+}
+.menu_box li.hover {
+    padding: 0px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    height: 23px;
+}
+.left_col{
+	text-align: left;
+}
+.right_col{
+	text-align: center;
+}
+#right_content{
+	width:800px;
+	height:auto;
+	margin: 0 auto;
+}
+.table{
+	margin-left: 18px;
+}
+#page_list td{
+	background-color: #fff;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+}
+#page_list td a{
+	font-size: 14px;
+	}
+#page_list td a:hover{
+	text-decoration: underline;
+	font-size:14px;
+	font-family:arial, 宋体, sans-serif, 'Microsoft YaHei', tahoma;
+	color:rgb(0, 0, 204);
+}
+.bg{ 
+	background:#fff;
+	border: solid 1px #e7ecf0;
+	font-family:arial, 宋体, sans-serif, 'Microsoft YaHei', tahoma;
+	color:rgb(0, 0, 204);
+    font-size:14px;
+    margin-right: 5px;
+    line-height: 22px;
+    width: 23px;
+    height: 22px;
+	}
+.bg_hover{ 
+	font-size:14px;
+	background:#e9f1f7;  
+	border: solid 1px #e7ecf0;
+    font-family:arial, 宋体, sans-serif, 'Microsoft YaHei', tahoma;
+	margin-right: 5px;
+	color:rgb(0, 0, 204);
+	line-height: 22px;
+    width: 23px;
+    height: 22px;
+	cursor:pointer;
+	}
+#footer{
+	width: 1024px;
+	height:30px;
+	margin: 0 auto;
+	background-color: #2b82d1;
+}

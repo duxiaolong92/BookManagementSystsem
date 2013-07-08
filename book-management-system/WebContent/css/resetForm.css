@@ -1,0 +1,175 @@
+@CHARSET "GB2312";
+body {
+direction: ltr;
+text-align: left;
+}
+body, select, input, textarea {
+color: #444;
+}
+body {
+font: 13px/1.5 'Helvetica Neue',Helvetica,Arial,Sans-serif;
+}
+.c::before, .c::after {
+content: " 0020";
+display: block;
+height: 0;
+visibility: hidden;
+}
+.c::after {
+clear: both;
+}
+div {
+display: block;
+
+}
+h2{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+h2{
+    font-weight: bold
+}
+#page_form h2 {
+clear: both;
+background: #b3d563;
+background: -webkit-gradient(linear, left top, left bottom, from(#1a85cb), to(#105e99));
+background: -moz-linear-gradient(top, #1a85cb, #105e99);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a85cb', endColorstr='#105e99');
+-moz-box-shadow: 0 0 1px #eee inset;
+-webkit-box-shadow: 0 0 1px #eee inset;
+-o-box-shadow: 0 0 1px #eee inset;
+box-shadow: 0 0 1px #eee inset;
+border: 1px solid #0f5c98;
+color: #FFFFFF;
+height: 33px;
+line-height: 33px;
+padding: 0 0 0 15px;
+font-size: 14px;
+text-shadow: 0 -1px 0 #0b3f61;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+#page_form {
+width: 360px;
+margin: 200px auto 0;
+}
+.r5px {
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+}
+.page_form_wrap {
+background: #f7f7f7;
+padding: 20px;
+border: 1px solid #babbbc;
+-webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+height: 318px;
+}
+.content p input[type="text"], .content p input[type="password"], .s {
+background: #fff;
+box-shadow: inset 0 2px 2px #dedede;
+-moz-box-shadow: inset 0 1px 1px #dedede;
+-webkit-box-shadow: inset 0 1px 1px #dedede;
+color: #777;
+border: 1px solid #ccc !important;
+cursor: text;
+padding: 4px 5px !important;
+font-size: 14px;
+}
+.c {
+zoom: 1;
+}
+form {
+display: block;
+margin-top: 0em;
+}
+.page_form_wrap p .s {
+width: 305px;
+}
+.page_form_wrap p label {
+display: block;
+margin: 0 0 5px;
+text-indent: 5px;
+}
+
+.button_blue {
+background: #3c8ae0;
+background: -webkit-gradient(linear, left top, left bottom, from(#3d92e6), to(#3a7fd6));
+background: -moz-linear-gradient(top, #3d92e6, #3a7fd6);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d92e6', endColorstr='#3a7fd6');
+-moz-box-shadow: 0 1px 0 #77B4EE inset;
+-webkit-box-shadow: 0 1px 0 #77B4EE inset;
+-o-box-shadow: 0 1px 0 #77B4EE inset;
+box-shadow: 0 1px 0 #77B4EE inset;
+border: 1px solid #35649d;
+color: #fff !important;
+cursor: pointer;
+display: inline-block;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12px;
+padding: 4px 10px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 1px 0 #204877;
+text-decoration: none !important;
+vertical-align: middle;
+}
+.r3px {
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+}
+h2{text-align:left;font-size:14px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;color:rgb(255, 255, 255);}
+input, textarea, keygen, select, button, isindex {
+margin: 0em;
+font: -webkit-small-control;
+color: initial;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: start;
+}
+.fr{
+	float: right;
+}
+.post_error1 {
+	COLOR: #ed1c24
+}
+.post_error2 {
+	COLOR: #ed1c24
+}
+input[type="text"], input[type="password"], select, textarea {
+margin: 0;
+border: 1px solid #999;
+padding: 2px;
+vertical-align: middle;
+}
+p {
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+input, textarea, keygen, select, button, isindex, meter, progress {
+-webkit-writing-mode: horizontal-tb;
+}

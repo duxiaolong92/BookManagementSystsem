@@ -1,0 +1,137 @@
+@CHARSET "GB2312";
+
+#container {
+width: 1024px;
+margin: 0 auto;
+}
+*{
+font-family: Arial, Helvetica, sans-serif, "ËÎÌו";
+font-size:12px;
+margin: 0 auto;
+padding:0px;
+}
+.menu {
+color: white;
+padding-left:40px;
+}
+.menu1 {
+color: white;
+padding-right:15px;
+}
+.menu1 li {
+color: white;
+font-size: 12px;
+float: right;
+text-align: center;
+padding: 0px 10px;
+}
+.menu ul, .menu1 ul, .menu li {
+list-style-type: none;
+}
+tr {
+display: table-row;
+border-color: inherit; 
+}
+ul {
+list-style: none;
+}
+a{
+	text-decoration: none;
+	color:  #26466c;
+} 
+
+.menu li {
+color: white;
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+padding: 0px 20px;
+float: left;
+}
+.menu li a{
+	text-decoration: none;
+	color:white;
+	}
+#content {
+background-color:#ffffff;
+width: 1024px;
+height:500px;
+margin: 0 auto;
+}
+#header{
+	width: 1024px;
+	height: 10px;
+}
+#left{
+   float:left;
+   width: 130px;
+   height:500px;
+   margin-left:40px;
+   /* border: solid thin;
+   border-color: #d7d7d7; */
+   }
+#nav_sidebar_content li {
+font-family: Arial, Helvetica, sans-serif, "ËÎÌו";
+font-size:12px;
+float: left;
+width: 65px;
+margin-top:12px;
+border-bottom: #AACBEE 1px dashed;
+padding: 7px 0 6px 17px;
+background-repeat: no-repeat;
+background-position: 5px center;
+}
+#nav_sidebar_content li .hover{
+	font-weight: bold;
+}
+#navsidebar {
+float: left;
+width: 130px;
+padding-left: 0px;
+}
+#right{
+   float:left;
+   width: 700px;
+   height: 500px;
+   margin-left:59px;
+ 
+}
+.book1 td{
+	border:solid 1px #AACBEE;
+	text-align: center;
+}
+#borrow_info{
+	margin-top:10px;
+	display: block;
+	
+}
+.area{
+	width:200px;
+
+} 
+.menu_box {
+text-decoration: none;
+width:700px;
+height:18px;
+margin-bottom: 10px;
+border-bottom: #AACBEE 1px solid;
+/* marin-top:40px; */
+}
+.menu_box ul li{
+	float:left;
+    list-style: none;
+    text-align: center;
+
+}
+.menu_box li.hover {
+    padding: 0px;
+    color: white;
+    font-weight: bold;
+    height: 23px;
+}
+#footer{
+	width: 1024px;
+	height: 30px;
+	margin:0 auto;
+	background-color: #2b82d1;
+}

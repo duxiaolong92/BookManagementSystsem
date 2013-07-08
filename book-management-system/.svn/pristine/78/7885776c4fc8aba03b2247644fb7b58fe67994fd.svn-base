@@ -1,0 +1,193 @@
+@CHARSET "GB2312";
+
+* {
+margin: 0px;
+border: 0px;
+padding:0px;
+}
+
+.container {
+width: 1024px;
+margin: 0 auto;
+}
+
+div {
+display: block;
+}
+
+body {
+font-size: 12px;
+font-family: Verdana, Geneva, sans-serif;
+border-color: gray;
+background-color: #e0e0e0;
+}
+
+table {
+width: 1024px;
+border-top-width: 0px;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+-webkit-margin-start: auto;
+-webkit-margin-end: auto;
+border-spacing: 0px;
+}
+
+tbody {
+display: table-row-group;
+border-color: inherit;
+}
+
+.menu {
+color: white;
+padding-left:40px;
+}
+.menu1 {
+color: white;
+padding-right:15px;
+}
+
+.menu ul, .menu1 ul, .sub_menu1 ul, .sub_menu2 ul, .mk1_content ul, .mk3_content ul, .lmdh_content ul, .zhfw ul {
+list-style-type: none;
+}
+
+
+
+
+tr {
+display: table-row;
+border-color: inherit;
+}
+
+
+ul {
+list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+.menu li {
+color: white;
+font-size: 12px;
+font-weight: bold;
+text-align: center;
+padding: 0px 20px;
+float: left;
+}
+
+
+
+.menu_a {
+color: white;
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+padding: 0px 20px;
+float: left;
+background-image: url(/book-management-system/images/menu_01.gif);
+background-repeat: no-repeat;
+background-position: left center;
+}
+
+.menu1 li {
+color: white;
+font-size: 12px;
+float: right;
+text-align: center;
+padding: 0px 10px;
+}
+
+td, th {
+display: table-cell;
+vertical-align: inherit;
+}
+
+
+#content{
+	background-color: white;
+	margin: auto;
+	width: 1024px;
+	height: 500px;
+	padding-top: 50px;
+}
+
+
+.text_input {
+	width: 200px;
+	height: 30px;
+	margin: 10px;
+	display: inline-block;
+	line-height: 18px;
+	background: #E8F4FC;
+	border: 1px solid #0D7BD5;
+	color: #888;
+	cursor: text;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .3), 0 1px 3px rgba(0, 0, 0, .3)
+		inset;
+	background-clip: padding-box;
+	}
+		
+#disappear{
+	position: relative;
+	right:210px;
+	color: #888;
+}
+		
+.button {
+padding-left:50px;
+background: #1E95E5;
+color: #B7D4EC;
+color: rgba(255, 255, 255, .8);
+box-shadow: 0 1px 0 rgba(0, 0, 0, .05),0 1px 0 rgba(255, 255, 255, .15) inset;
+border: 1px solid #147DCD;
+cursor: pointer;
+display: inline-block;
+font-size: 14px;
+line-height: 18px;
+text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+padding: 6px 15px;
+text-align: center;
+vertical-align: middle;
+float: left;
+-webkit-appearance: none;
+border: 1px solid;
+margin-left: 10px;
+}
+
+.register {
+margin-top:5px;
+margin-left:28px;
+display: inline-block;
+margin-bottom: 5px;
+font-size: 14px;
+color: #B7D4EC;
+color: rgba(255, 255, 255, .8);
+background: rgba(0, 0, 0, 0.46);
+padding: 3px 15px;
+border-radius: 50px;
+box-shadow: 0 1px 0 rgba(255, 255, 255, .15), 0px 1px 3px rgba(0, 0, 0, .2) inset;
+}
+.forget_password{
+	font-size: 12px; 
+	float: left;
+	margin-left:12px; 
+}
+
+a:link{
+	font-color:#1E95E5;
+}
+#forget_password a:link{
+	color: #1E95E5;
+}
+#forget_password a:visited{
+	color: #1E95E5;
+}
+
+#footer{
+	width:1024px;
+	height: 30px;
+	background-color: #2b82d1;
+	margin: auto;
+}

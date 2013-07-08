@@ -1,0 +1,105 @@
+@CHARSET "GB2312";
+*{
+margin: 0 auto;
+padding:0px;
+border: 0px;
+}
+.menu {
+color: white;
+padding-left:40px;
+}
+.menu1 {
+color: white;
+padding-right:15px;
+}
+.menu1 li {
+color: white;
+font-size: 12px;
+float: right;
+text-align: center;
+padding: 0px 10px;
+}
+.menu1 li a{
+	text-decoration: none;
+	color:white;
+	}
+.menu ul, .menu1 ul, .menu li {
+list-style-type: none;
+}
+
+tr {
+display: table-row;
+border-color: inherit; 
+} 
+
+
+ul {
+list-style: none;
+}
+a{
+	text-decoration: none;
+	color:  #26466c;
+	list-style: none;
+} 
+
+.menu li {
+color: white;
+font-size: 12px;
+font-weight: bold;
+text-align: center;
+padding: 0px 20px;
+float: left;
+}
+.menu li a{
+	text-decoration: none;
+	color:white;
+	}
+	
+#content{
+background-color:#ffffff;
+width: 1024px;
+height:auto;
+margin: 0 auto;
+font-size: 13px;
+}
+
+#article{
+	margin-left: -161px;
+}
+.see_more{
+	color: red;
+	
+}
+.close{
+	color: red;
+}
+#footer{
+	width: 1024px;
+	height:30px;
+	margin: 0 auto;
+	background-color: #2b82d1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

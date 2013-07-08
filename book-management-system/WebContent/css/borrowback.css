@@ -1,0 +1,177 @@
+@CHARSET "GB2312";
+
+#container {
+width: 1024px;
+margin: 0 auto;
+}
+*{
+font-family: Arial, Helvetica, sans-serif, "ËÎÌו";
+font-size:12px;
+margin: 0 auto;
+padding:0px;
+}
+.menu {
+color: white;
+padding-left:40px;
+}
+.menu1 {
+color: white;
+padding-right:15px;
+}
+
+.menu1 li {
+color: white;
+font-size: 12px;
+float: right;
+text-align: center;
+padding: 0px 10px;
+}
+.menu1 li a{
+	text-decoration: none;
+	color:white;
+	}
+.menu ul, .menu1 ul, .menu li {
+list-style-type: none;
+}
+
+tr {
+display: table-row;
+border-color: inherit; 
+} 
+ul {
+list-style: none;
+}
+a{
+	text-decoration: none;
+	color:  #26466c;
+} 
+
+
+.menu li {
+color: white;
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+padding: 0px 20px;
+float: left;
+}
+.menu li a{
+	text-decoration: none;
+	color:white;
+	}
+#content {
+background-color:#ffffff;
+width: 1024px;
+height::100%; overflow:hidden;!important;
+margin: 0 auto;
+}
+#header{
+	width: 1024px;
+	height: 10px;
+}
+#left{
+   float:left;
+   height:500px;
+   margin-left:40px;
+   }
+#nav_sidebar_content li {
+font-family: Arial, Helvetica, sans-serif, "ËÎÌו";
+font-size:12px;
+float: left;
+width: 65px;
+margin-top:12px;
+border-bottom: #AACBEE 1px dashed;
+padding: 7px 0 6px 17px;
+background-repeat: no-repeat;
+background-position: 5px center;
+}
+#nav_mylib li .hover{
+	font-weight: bold;
+}
+#navsidebar {
+float: left;
+width: 130px;
+padding-left: 0px;
+}
+#right{
+   float:left;
+   width: 700px;
+   height: 500px;
+   margin-left:59px;
+ }
+#reader_info{
+	display: none;
+}
+.rule  td{
+	border:solid 1px #707070;
+	text-align: center;
+}
+.book1 td{
+	border:solid 1px #707070;
+	text-align: center;
+}
+#borrow_info{
+	display: none;
+}
+.cm{
+	font-weight:bold;
+	color: #ec6923;
+	font-size: 30px;
+	text-align: left;
+}
+.l{
+	text-align: left;
+}
+.r{
+	text-align: right;
+}
+.cm_content_tab{
+	border-bottom: thin dashed;
+	border-top: thin dashed;
+}
+.menu_box {
+text-decoration: none;
+width:700px;
+height:18px;
+border-bottom: #AACBEE 1px solid;
+margin-top:10px;
+margin-bottom: 10px;
+}
+.menu_box ul li{
+	float:left;
+    list-style: none;
+    text-align: center;
+    width: 100px;
+
+}
+.menu_box li.hover {
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    height: 23px;
+}
+.text_input {
+	width: 200px;
+	height: 30px;
+	margin: 10px;
+	display: inline-block;
+	line-height: 18px;
+	background: #E8F4FC;
+	border: 1px solid #0D7BD5;
+	color: #888;
+	cursor: text;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .3), 0 1px 3px rgba(0, 0, 0, .3)
+		inset;
+	background-clip: padding-box;
+	}
+	.book1 td{
+	border:solid 1px #AACBEE;
+	text-align: center;
+}
+#footer{
+	width: 1024px;
+	height: 30px;
+	margin:0 auto;
+	background-color: #2b82d1;
+}
+ 
